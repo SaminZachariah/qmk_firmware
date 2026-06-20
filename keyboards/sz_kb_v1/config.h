@@ -4,3 +4,4 @@
 #pragma once
 
 #define DEBUG_MATRIX_SCAN_RATE
+#define ENCODER_MAP_KEY_DELAY 10
