@@ -10,4 +10,7 @@
 #define SERIAL_USART_TX_PIN GP8
 #define SERIAL_USART_RX_PIN GP9
 
+// TEMPORARY: testing with two right halves — remove when left halves are ready
+#define SERIAL_USART_PIN_SWAP
+
 #define EE_HANDS
