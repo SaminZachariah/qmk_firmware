@@ -17,7 +17,13 @@
         "encoder": true,
         "extrakey": true,
         "console": true,
-        "rgb_matrix": true
+        "rgb_matrix": true,
+        "tri_layer": true
+    },
+    "tri_layer": {
+        "lower": 1,
+        "upper": 2,
+        "adjust": 3
     },
     "usb": {
         "vid": "0x5A4B",
