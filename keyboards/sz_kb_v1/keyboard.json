@@ -10,14 +10,14 @@
         "rows": ["GP29", "GP27", "GP26", "GP18", "GP20"]
     },
     "encoder": {
-        "rotary": [{"pin_a": "GP19", "pin_b": "GP10"}]
+        "rotary": [{"pin_a": "GP19", "pin_b": "GP10", "resolution": 8}]
     },
     "features": {
         "bootmagic": true,
         "encoder": true,
         "extrakey": true,
         "console": true,
-        "rgb_matrix": true
+    "rgb_matrix": true
     },
     "usb": {
         "vid": "0x5A4B",
@@ -113,7 +113,7 @@
         },
         "encoder": {
             "right": {
-                "rotary": [{"pin_a": "GP19", "pin_b": "GP10"}]
+                "rotary": [{"pin_a": "GP10", "pin_b": "GP19", "resolution": 8}]
             }
         },
         "bootmagic": {
