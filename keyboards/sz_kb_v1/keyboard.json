@@ -12,6 +12,9 @@
     "encoder": {
         "rotary": [{"pin_a": "GP19", "pin_b": "GP10", "resolution": 8}]
     },
+    "tapping": {
+        "permissive_hold_per_key": true
+    },
     "features": {
         "bootmagic": true,
         "encoder": true,
